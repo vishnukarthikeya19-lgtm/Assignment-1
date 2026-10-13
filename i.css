@@ -1,0 +1,168 @@
+
+/* Element selectors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    color: #263238;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #16324f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #176b87;
+    border-bottom: 2px solid #d6e4ef;
+    padding-bottom: 8px;
+}
+
+nav {
+    background-color: #24577a;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #d6e0ea;
+    border-radius: 8px;
+}
+
+/* ID selector */
+#student-name {
+    color: #176b87;
+    font-size: 24px;
+}
+
+/* Class selector */
+.highlight {
+    color: #176b45;
+    background-color: #e0f5e9;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #cbd5df;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dcebf5;
+    color: #16324f;
+}
+
+tr:nth-child(even) {
+    background-color: #f6f9fc;
+}
+
+/* Skills list */
+li {
+    margin: 8px 0;
+}
+
+/* Form controls */
+label {
+    display: inline-block;
+    margin: 6px 0;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #aebdca;
+    border-radius: 4px;
+}
+
+fieldset {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #cbd5df;
+    border-radius: 5px;
+}
+
+fieldset label {
+    margin-right: 15px;
+}
+
+button {
+    background-color: #176b87;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: #10475a;
+}
+
+footer {
+    background-color: #16324f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Small-screen support without Flexbox or Grid */
+@media (max-width: 600px) {
+    body {
+        padding: 8px;
+    }
+
+    header,
+    section {
+        padding: 12px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+    }
+}
